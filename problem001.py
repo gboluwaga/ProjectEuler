@@ -18,3 +18,17 @@ def find_sum_of_multiples(n):
     return sum_of_multiples
 
 print(find_sum_of_multiples(1000))
+
+
+
+#This is also helpful
+def addprime(Num):
+    suml =0
+    for i in range(Num):
+        if i % 3 == 0 or i % 5 ==0:
+            suml = suml + i
+            print(suml)
+
+            
+        
+addprime(1000)
